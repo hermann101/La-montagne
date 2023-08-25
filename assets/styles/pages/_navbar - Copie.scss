@@ -1,0 +1,71 @@
+//  nav{
+//     background-color: $color5;
+//     @include centerchild();
+//     justify-content: space-between;
+//     margin: 5% 10% 0 10%;
+//     padding: 22px 0  22px 0px;
+//     ul{
+//         @include centerchild();
+//         justify-content: space-around;
+//         font-family: "Inter";
+//         font-size: 13px;
+//         font-weight: bold;
+//         position: relative;
+//         li{
+//             margin-right: 15px;
+//             cursor: pointer;
+//             color: $color3;
+//             position: absolute;
+//         }
+//         li:nth-child(1){
+//             color: $color2;
+//             background: $color3;
+//             width: 152px;
+//             height: 63px;
+//             padding-top: 22px;
+//             left: 0px;    
+//         }
+//         li:nth-child(1):hover{
+//             color: $color3;
+//             background: none;
+//         }
+//         li:nth-child(2){
+//             left: 152px;
+//             width: 152px;
+//             height: 63px;
+//             padding-top: 22px;
+//         }
+//         li:nth-child(2):hover{
+//             color: $color2;
+//             background: $color3;
+//             width: 152px;
+//             height: 63px;
+//             padding-top: 22px;
+//         }
+//         li:nth-child(3){
+//             left: 304px;
+//             width: 152px;
+//             height: 63px;
+//             padding-top: 22px;
+//         }
+//         li:nth-child(3):hover{
+//             color: $color2;
+//             background: $color3;
+
+//         }
+
+//     }
+//     nav:hover{
+//         ul{
+//             background:$color5 ;
+//         }
+        
+//     }
+    
+//     .nav-logos i{
+//         margin: 0 25px 0 25px;
+//         color: $color3;
+//         cursor: pointer;
+//     }
+    
+//  }

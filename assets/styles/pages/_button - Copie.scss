@@ -1,0 +1,26 @@
+.titre i{
+    border: 2px solid $color3;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: $color3;
+    padding: 17px;
+    cursor: pointer;
+
+    &:hover{
+        background: $color5;
+
+    }
+}
+button{
+    border: 2px solid $color2;
+    padding: 5px 25px;
+    font-weight: bold;
+    background: none;
+    width: 200px;
+    height: 45px;
+    cursor: pointer;
+    &:hover{
+        background: rgba(128, 128, 128, 0.523);
+    }
+}
